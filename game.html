@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<link href="css/game.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/gam.js"></script>
+	</head>
+
+	<body>
+		<div id="info">
+			<table>
+				<tr>
+					<td><p id="remaining"></p></td>
+				</tr>
+				<tr>
+					<td><p id="moves"></p></td>
+				</tr>
+				<tr>
+					<td><p id="seconds"></p></td>
+				</tr>
+				<tr>
+					<td><input type="button" id="reset" value="Reset" onclick="resetGame()"></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="boardDiv">
+			<table>
+				<tr> 
+					<td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+					<td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+					<td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+					<td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+					<td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+				</tr>
+
+				<tr>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                </tr>
+
+				<tr>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+				</tr>
+
+				<tr>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                </tr>
+				
+				<tr>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    <td onclick=openCard(this)><img src="pics/blank.png" alt="blank cell" class="cards"> </td>
+                    </tr>
+			</table>
+		</div>	
+	
+	</body>
+
+</html>

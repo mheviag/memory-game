@@ -1,0 +1,45 @@
+/*Feel free to customize this CSS file by adding or changing the defined values. */
+
+img{
+	width: 80px;
+	height: auto;
+}
+
+p{
+	font-size:20px;
+	color:blue;
+}
+
+input{
+	font-size:20px;
+	color:blue;
+}
+
+#info{
+	position:absolute;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#boardDiv{
+	width:50%;
+	margin-left:25%;
+}
+
+#boardDiv table{
+	border:solid 1px;
+	border-radius: 10px;
+	border-color:blue;
+}
+
+#boardDiv td{
+	border:solid 1px;
+	border-radius: 10px;
+	border-color:blue;
+	height:155px;
+	width:100px;
+	text-align:center;
+}
+
+
+
